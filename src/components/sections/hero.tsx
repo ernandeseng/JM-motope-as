@@ -11,9 +11,9 @@ export function HeroSection() {
         <Image
           src="https://i.imgur.com/MEu7h2G.png"
           alt="JM Moto Peças Logo"
-          width={200}
-          height={200}
-          className="mb-8"
+          width={300}
+          height={300}
+          className="mb-8 w-[200px] h-auto md:w-[300px]"
           priority
         />
         <div className="max-w-4xl">
