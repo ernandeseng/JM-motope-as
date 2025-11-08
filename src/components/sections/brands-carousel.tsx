@@ -1,24 +1,22 @@
 "use client";
 
 import React from 'react';
+import Autoscroll from "embla-carousel-auto-scroll";
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel";
-import { HondaLogo, YamahaLogo, SuzukiLogo, KawasakiLogo, DafraLogo, ShinerayLogo, TraxxLogo, HaojueLogo } from "@/components/icons/brands";
+import Image from 'next/image';
 
 const brands = [
-  { name: 'Honda', logo: <HondaLogo /> },
-  { name: 'Yamaha', logo: <YamahaLogo /> },
-  { name: 'Suzuki', logo: <SuzukiLogo /> },
-  { name: 'Kawasaki', logo: <KawasakiLogo /> },
-  { name: 'Dafra', logo: <DafraLogo /> },
-  { name: 'Shineray', logo: <ShinerayLogo /> },
-  { name: 'Traxx', logo: <TraxxLogo /> },
-  { name: 'Haojue', logo: <HaojueLogo /> },
+  { name: 'Honda', logo: 'https://cdn.worldvectorlogo.com/logos/honda-9.svg' },
+  { name: 'Yamaha', logo: 'https://cdn.worldvectorlogo.com/logos/yamaha-20.svg' },
+  { name: 'Suzuki', logo: 'https://cdn.worldvectorlogo.com/logos/suzuki-10.svg' },
+  { name: 'Kawasaki', logo: 'https://cdn.worldvectorlogo.com/logos/kawasaki-logo-1.svg' },
+  { name: 'Dafra', logo: 'https://www.daframotos.com.br/themes/custom/dafra/logo.svg' },
+  { name: 'Shineray', logo: 'https://www.shineray.com.br/wp-content/uploads/2023/07/logo-shineray-horizontal.png' },
+  { name: 'Haojue', logo: 'https://haojuemotos.com.br/wp-content/uploads/2023/10/logo-haojue-azul-e-vermelho-antigo-removebg-preview.png' },
 ];
 
 export function BrandsCarouselSection() {
@@ -33,19 +31,24 @@ export function BrandsCarouselSection() {
             align: "start",
             loop: true,
           }}
+          plugins={[
+            Autoscroll({
+              speed: 1,
+              stopOnInteraction: false,
+              stopOnMouseEnter: true,
+            }),
+          ]}
           className="w-full max-w-6xl mx-auto"
         >
           <CarouselContent>
-            {brands.map((brand, index) => (
-              <CarouselItem key={index} className="basis-1/3 md:basis-1/5 lg:basis-1/8 flex justify-center">
-                <div className="p-4 filter grayscale hover:filter-none transition-all duration-300 opacity-75 hover:opacity-100 cursor-pointer" title={brand.name}>
-                  {brand.logo}
+            {[...brands, ...brands].map((brand, index) => (
+              <CarouselItem key={index} className="basis-1/3 md:basis-1/5 lg:basis-1/6 flex justify-center items-center">
+                <div className="p-4 filter grayscale hover:filter-none transition-all duration-300 opacity-75 hover:opacity-100 cursor-pointer h-24 flex items-center" title={brand.name}>
+                  <Image src={brand.logo} alt={brand.name} width={120} height={40} className="object-contain max-h-10" />
                 </div>
               </CarouselItem>
             ))}
           </CarouselContent>
-          <CarouselPrevious />
-          <CarouselNext />
         </Carousel>
       </div>
     </section>
