@@ -1,3 +1,52 @@
 {
-  "placeholderImages": []
+  "placeholderImages": [
+    {
+      "id": "hero-background",
+      "description": "Red sports motorcycle in motion on a dark road",
+      "imageUrl": "https://images.unsplash.com/photo-1630820755667-fab19eedf4e9?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxtb3RvcmN5Y2xlJTIwc3BlZWR8ZW58MHx8fHwxNzYyNTY3NDI3fDA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "motorcycle speed"
+    },
+    {
+      "id": "product-footpeg",
+      "description": "Rear footpeg for a CG/Titan 125 motorcycle",
+      "imageUrl": "https://images.unsplash.com/photo-1642225062426-c9f9610de7c5?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw0fHxtb3RvcmN5Y2xlJTIwZm9vdHBlZ3xlbnwwfHx8fDE3NjI1MzQ0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "motorcycle footpeg"
+    },
+    {
+      "id": "product-headlight",
+      "description": "Complete headlight for a Titan 2000 motorcycle",
+      "imageUrl": "https://images.unsplash.com/photo-1759776421390-a6c66fbcedbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb3RvcmN5Y2xlJTIwaGVhZGxpZ2h0fGVufDB8fHx8MTc2MjUxNTQyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "motorcycle headlight"
+    },
+    {
+      "id": "product-taillight",
+      "description": "Complete red taillight for a Titan 2000 motorcycle",
+      "imageUrl": "https://images.unsplash.com/photo-1653463207246-1dc03899dfe0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bW90b3JjeWNsZSUyMHRhaWxsaWdodHxlbnwwfHx8fDE3NjI1MzQ0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "motorcycle taillight"
+    },
+    {
+      "id": "product-dashboard",
+      "description": "Complete dashboard for a Titan KS 2000/08 motorcycle",
+      "imageUrl": "https://images.unsplash.com/photo-1549375812-d42e30e915d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb3RvcmN5Y2xlJTIwZGFzaGJvYXJkfGVufDB8fHx8MTc2MjUzMTc0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "motorcycle dashboard"
+    },
+    {
+      "id": "avatar-1",
+      "description": "Avatar of a male customer",
+      "imageUrl": "https://images.unsplash.com/photo-1636377985931-898218afd306?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxtYW4lMjBwb3J0cmFpdHxlbnwwfHx8fDE3NjI1MzE0Njd8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "man portrait"
+    },
+    {
+      "id": "avatar-2",
+      "description": "Avatar of a female customer",
+      "imageUrl": "https://images.unsplash.com/photo-1557053910-d9eadeed1c58?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHx3b21hbiUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MjQ1ODcyOXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "woman portrait"
+    },
+    {
+      "id": "avatar-3",
+      "description": "Avatar of a male customer with a helmet",
+      "imageUrl": "https://images.unsplash.com/photo-1642542338390-52d60ccd61d6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxtZWNoYW5pYyUyMHBvcnRyYWl0fGVufDB8fHx8MTc2MjU2NzQyN3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "mechanic portrait"
+    }
+  ]
 }
