@@ -5,20 +5,8 @@ import { JMLogo } from "@/components/logo";
 import Link from "next/link";
 
 export function HeroSection() {
-  const heroImage = PlaceHolderImages.find(p => p.id === 'hero-background');
-
   return (
-    <section className="relative h-[100svh] w-full flex items-center justify-center text-center p-0">
-      {heroImage && (
-        <Image
-          src={heroImage.imageUrl}
-          alt={heroImage.description}
-          fill
-          className="object-cover"
-          priority
-          data-ai-hint={heroImage.imageHint}
-        />
-      )}
+    <section className="relative h-[100svh] w-full flex items-center justify-center text-center p-0 bg-foreground">
       <div className="absolute inset-0 bg-black/60" />
       <div className="relative z-10 text-white container mx-auto px-4 flex flex-col items-center">
          <div className="absolute top-0 py-6">
