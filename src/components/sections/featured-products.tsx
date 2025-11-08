@@ -1,8 +1,8 @@
 import Image from "next/image";
-import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
 import Link from "next/link";
+import { ShimmerButton } from "../ui/shimmer-button";
 
 const products = [
   {
@@ -48,13 +48,15 @@ export function FeaturedProductsSection() {
                       />
                     </div>
                   )}
-                  <div className="p-6 flex flex-col flex-grow w-full">
+                  <div className="p-6 flex flex-col flex-grow w-full items-center">
                     <h3 className="font-bold text-lg mb-4 flex-grow">{product.name}</h3>
-                    <Button asChild className="bg-accent text-accent-foreground hover:bg-accent/90 font-bold w-full mt-auto">
-                      <Link href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer">
-                        Falar com um Vendedor
-                      </Link>
-                    </Button>
+                    <Link href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer" className="mt-auto">
+                      <ShimmerButton borderRadius="0.5rem">
+                          <span className="whitespace-pre-wrap text-center text-sm font-bold leading-none tracking-tight text-accent-foreground">
+                            Falar com um Vendedor
+                          </span>
+                      </ShimmerButton>
+                    </Link>
                   </div>
                 </CardContent>
               </Card>
