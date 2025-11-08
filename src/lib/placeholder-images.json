@@ -15,19 +15,19 @@
     {
       "id": "product-headlight",
       "description": "Complete headlight for a Titan 2000 motorcycle",
-      "imageUrl": "https://images.unsplash.com/photo-1759776421390-a6c66fbcedbe?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw3fHxtb3RvcmN5Y2xlJTIwaGVhZGxpZ2h0fGVufDB8fHx8MTc2MjUxNTQyM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.imgur.com/pbbz7xU.jpeg",
       "imageHint": "motorcycle headlight"
     },
     {
       "id": "product-taillight",
       "description": "Complete red taillight for a Titan 2000 motorcycle",
-      "imageUrl": "https://images.unsplash.com/photo-1653463207246-1dc03899dfe0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxMHx8bW90b3JjeWNsZSUyMHRhaWxsaWdodHxlbnwwfHx8fDE3NjI1MzQ0MTl8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.imgur.com/Ju4RyVg.jpeg",
       "imageHint": "motorcycle taillight"
     },
     {
       "id": "product-dashboard",
       "description": "Complete dashboard for a Titan KS 2000/08 motorcycle",
-      "imageUrl": "https://images.unsplash.com/photo-1549375812-d42e30e915d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHwxfHxtb3RvcmN5Y2xlJTIwZGFzaGJvYXJkfGVufDB8fHx8MTc2MjUzMTc0NHww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageUrl": "https://i.imgur.com/Q4PZfuN.jpeg",
       "imageHint": "motorcycle dashboard"
     },
     {
