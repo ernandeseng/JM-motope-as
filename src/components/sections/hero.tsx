@@ -1,19 +1,21 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { PlaceHolderImages } from "@/lib/placeholder-images";
-import { JMLogo } from "@/components/logo";
 import Link from "next/link";
 
 export function HeroSection() {
   return (
-    <section className="relative h-[100svh] w-full flex items-center justify-center text-center p-0 bg-foreground">
-      <div className="absolute inset-0 bg-black/60" />
+    <section className="relative h-[100svh] w-full flex items-center justify-center text-center p-0 bg-gradient-to-br from-primary via-foreground to-foreground">
+      <div className="absolute inset-0 bg-black/50" />
       <div className="relative z-10 text-white container mx-auto px-4 flex flex-col items-center">
-         <div className="absolute top-0 py-6">
-            <Link href="/" aria-label="Página Inicial">
-                <JMLogo />
-            </Link>
-         </div>
+        <Image
+          src="https://i.imgur.com/MEu7h2G.png"
+          alt="JM Moto Peças Logo"
+          width={200}
+          height={200}
+          className="mb-8"
+          priority
+        />
         <div className="max-w-4xl">
           <h1 className="font-headline text-4xl md:text-6xl lg:text-7xl font-black uppercase tracking-tight drop-shadow-md">
             Peças Originais para Sua Moto com Preço de Atacarejo
