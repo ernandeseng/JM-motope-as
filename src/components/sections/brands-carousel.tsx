@@ -15,7 +15,7 @@ const brands = [
   { name: 'Suzuki', logo: 'https://cdn.worldvectorlogo.com/logos/suzuki-10.svg' },
   { name: 'Kawasaki', logo: 'https://cdn.worldvectorlogo.com/logos/kawasaki-logo-1.svg' },
   { name: 'Dafra', logo: 'https://i.imgur.com/3XOpkIa.png' },
-  { name: 'Shineray', logo: 'https://www.shineray.com.br/wp-content/uploads/2023/07/logo-shineray-horizontal.png' },
+  { name: 'Shineray', logo: 'https://i.imgur.com/KAY4a56.jpeg' },
   { name: 'Haojue', logo: 'https://haojuemotos.com.br/wp-content/uploads/2023/10/logo-haojue-azul-e-vermelho-antigo-removebg-preview.png' },
 ];
 
