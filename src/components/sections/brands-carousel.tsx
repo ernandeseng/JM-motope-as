@@ -11,7 +11,7 @@ import Image from 'next/image';
 
 const brands = [
   { name: 'Honda', logo: 'https://cdn.worldvectorlogo.com/logos/honda-9.svg' },
-  { name: 'Yamaha', logo: 'https://cdn.worldvectorlogo.com/logos/yamaha-20.svg' },
+  { name: 'Yamaha', logo: 'https://i.imgur.com/DrxNY6p.png' },
   { name: 'Suzuki', logo: 'https://cdn.worldvectorlogo.com/logos/suzuki-10.svg' },
   { name: 'Kawasaki', logo: 'https://cdn.worldvectorlogo.com/logos/kawasaki-logo-1.svg' },
   { name: 'Dafra', logo: 'https://i.imgur.com/3XOpkIa.png' },
