@@ -7,7 +7,7 @@ import { ShimmerButton } from "../ui/shimmer-button";
 const products = [
   {
     id: "product-footpeg",
-    name: "Pedaleira Traseiro Completa CG/Titan 125",
+    name: "Pedaleira Traseira Completa CG/Titan 125",
   },
   {
     id: "product-headlight",
