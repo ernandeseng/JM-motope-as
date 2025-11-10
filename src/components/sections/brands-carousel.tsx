@@ -16,7 +16,7 @@ const brands = [
   { name: 'Kawasaki', logo: 'https://cdn.worldvectorlogo.com/logos/kawasaki-logo-1.svg' },
   { name: 'Dafra', logo: 'https://i.imgur.com/3XOpkIa.png' },
   { name: 'Shineray', logo: 'https://i.imgur.com/KAY4a56.jpeg' },
-  { name: 'Haojue', logo: 'https://haojuemotos.com.br/wp-content/uploads/2023/10/logo-haojue-azul-e-vermelho-antigo-removebg-preview.png' },
+  { name: 'Haojue', logo: 'https://i.imgur.com/DMRdcie.png' },
 ];
 
 export function BrandsCarouselSection() {
