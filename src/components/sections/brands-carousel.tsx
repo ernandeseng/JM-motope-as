@@ -42,9 +42,9 @@ export function BrandsCarouselSection() {
         >
           <CarouselContent>
             {[...brands, ...brands].map((brand, index) => (
-              <CarouselItem key={index} className="basis-1/3 md:basis-1/5 lg:basis-1/6 flex justify-center items-center">
-                <div className="p-4 filter grayscale hover:filter-none transition-all duration-300 opacity-75 hover:opacity-100 cursor-pointer h-24 flex items-center" title={brand.name}>
-                  <Image src={brand.logo} alt={brand.name} width={120} height={40} className="object-contain max-h-10" />
+              <CarouselItem key={index} className="basis-1/3 md:basis-1/4 lg:basis-1/5 flex justify-center items-center">
+                <div className="p-4 filter grayscale hover:filter-none transition-all duration-300 opacity-75 hover:opacity-100 cursor-pointer h-28 flex items-center" title={brand.name}>
+                  <Image src={brand.logo} alt={brand.name} width={150} height={50} className="object-contain max-h-12 w-auto" />
                 </div>
               </CarouselItem>
             ))}
